@@ -28,7 +28,9 @@ import yaml
 #
 # DOCTOR = "Peter"
 # DOCTOR = "Sam"
-DOCTOR = "Marjorie"
+# DOCTOR = "Marjorie"
+DOCTOR = "SUNDIAL"
+
 # -------------------------------------------
 
 
@@ -47,7 +49,7 @@ unlikely = np.array(word_dict['unlikely'])
 
 file = open("bingo.tex", "w")
 
-file.write(r"""\documentclass[12pt]{letter}
+file.write(r"""\documentclass[10pt]{letter}
 \usepackage{a4wide}
 \usepackage{tabularx}
 \renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column (from https://tex.stackexchange.com/a/343329)
@@ -61,9 +63,10 @@ for i in range(n_cards):
     \begin{center}
     \Huge{}
     \bf{}
-    {Dr. Bingo}\\[48pt]
+    """ +
+    f"{{{i+1}}}" +
+    r"""\\[30pt]
     \end{center}
-    \Large
     \begin{tabularx}{\textwidth}{| >{\centering{}\arraybackslash}X |
     >{\centering{}\arraybackslash}X | >{\centering{}\arraybackslash}X |
     >{\centering{}\arraybackslash}X | >{\centering{}\arraybackslash}X |
@@ -96,7 +99,7 @@ for i in range(n_cards):
         file.write("{word}".format(word=word))
         count += 1
         if count%5 == 0:
-            file.write(" & \\\\[72pt]\\hline\n")
+            file.write(" & \\\\[50pt]\\hline\n")
         else:
             file.write(" & ")
 

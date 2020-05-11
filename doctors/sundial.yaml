@@ -1,0 +1,72 @@
+# Number of cards
+cards: 14
+
+# list of words that are likely to be mentioned during the presentation
+# mind the manual hyphenation (with a single backslash),
+# which is necessary to ensure every word fits
+likely:
+  - Machine learning is magic
+  - Machine learning is not magic
+  - Unsupervised classification
+  - Inter WP fight
+  - Intra WP fight
+  - "``It's 2020, we should be able to do it\""
+  - "``We can go deep (luminosity-wise)\""
+  - "``We should not do that\""
+  - "``You can't do that\""
+  - "``Somebody mentions the Media person\""
+  - "``The PhD is easy\""
+  - Reynier in a suddenly extremely supporting mood
+  - "``This is wrong!\""
+  - "``This is bad!\""
+  - The European Commission(!) logo
+  - "``A lot of GalFit\""
+  - "``You can do this in one week\""
+  - "``What does SUNDIAL mean?\""
+  - "``who is my external supervisor?\""
+  - Outreach
+  - We shall put it on the wiki
+  - "``Dear ESRs...\""
+  - A supervisor is late in the ZOOM
+  - It's part of the training
+  - Somebody mentions DAGAL
+  - Deeply embarrassing photos from previous meetings
+  - Salary country correction coefficient
+  - "``We left\""
+  - "``Can I hear from the young people in the (vitual) room?\""
+  - "``I'm not an astronomer\""
+  - "``I'm not a computer scientist\""
+  - "``Have you considered using machine learning for this?\""
+  - "``No, machine learning definitely wouldn't work here\""
+  - "``Any questions from the ESRs?\""
+  - Somebody speaks with mic closed
+  - Somebody forgets the mic open
+  - Screen sharing does not work
+  - "``It's important to ask the right questions...\""
+  - "``Dear supervisors\""
+  - Somebody's microphone quality is horrible
+  - A pull request
+  - "``What's the accuracy of your ML prediction?\""
+  - Somebody mentions the PCA
+  - Unemployment
+  - Real clapping in the zoom meeting
+  - More than two people talk together
+  - Somebody makes a typo in the chat
+  - Reynier forgets to admit somebody in the ZOOM room
+
+# - Chamba, Trujillo & Johan 2019/ Prof. Johan
+# list of words that are less likely to be mentioned
+
+unlikely:
+  - Somebody forgets the aknowledgements paragraph
+  - "``What's WP1?\""
+  - "``can we meet now?\""
+  - "``Food?\""
+  - Somebody suggests a collaboration just as a travel opportunity
+  - "``Who is going to volunteer?\""
+  - There is a ZOOMbombing!
+  - ZOOM host changes
+
+  # - A beer is spelt
+#  - Michael W. is the only supervisor in the (virtual) pub
+  # - "``Thank you for...what?!\""
