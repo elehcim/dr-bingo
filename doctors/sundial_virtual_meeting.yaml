@@ -24,8 +24,9 @@ likely:
   - Outreach
   - We shall put it on the wiki
   - "``Dear ESRs...\""
+  - "``Dear supervisors...\""
   - A supervisor is late in the ZOOM
-  - It's part of the training
+  - "``It's part of the training\""
   - Somebody mentions previous ITNs
   - Somebody mentions future ITNs
   - Deeply embarrassing photos from previous meetings
@@ -40,7 +41,6 @@ likely:
   - Somebody speaks with mic closed
   - Somebody forgets the mic open
   - "``It's important to ask the right questions...\""
-  - "``Dear supervisors...\""
   - Microphone quality is horrible
   - A pull request
   - "``What's the accuracy of your ML prediction?\""
