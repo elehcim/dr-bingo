@@ -24,3 +24,4 @@
 
 python bingo.py
 pdflatex bingo.tex
+pdftk bingo.pdf burst output esr_%02d.pdf
