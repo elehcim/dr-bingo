@@ -29,7 +29,7 @@ import yaml
 # DOCTOR = "Peter"
 # DOCTOR = "Sam"
 # DOCTOR = "Marjorie"
-DOCTOR = "SUNDIAL"
+DOCTOR = "SUNDIAL_virtual_meeting"
 
 # -------------------------------------------
 
